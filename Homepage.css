@@ -1,0 +1,620 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+@font-face {
+    font-family: integralCF;
+    src: url(Font/Fontspring-DEMO-integralcf-bold.otf);
+}
+
+.layer {
+    background-color: black;
+    width: 100%;
+    color: #ffffff;
+    padding-top: 9px;
+    padding-left: 474px;
+    padding-bottom: 9px;
+    font-weight: 400;
+    font-family: satoshi, sans-serif;
+    font-size: 14px;
+    line-height: 18.9px;
+}
+
+/* @media screen and (max-width: 1028px) {
+    .layer {
+        padding-top: 2px;
+        padding-left: 350px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .layer {
+        padding-top: 1px;
+        padding-left: 200px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .layer {
+        padding-top: 9px;
+        padding-left: 44.5px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .layer {
+        padding: 9px, 25px;
+    }
+} */
+
+
+
+.whole {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    font-family: 'integralCF';
+    padding-top: 103px;
+    padding-left: 100px;
+}
+
+.span {
+    font-weight: 500;
+    text-decoration: underline;
+    offset: auto;
+    text-decoration-thickness: auto;
+}
+
+.h1 {
+    padding-right: 40px;
+    font-family: 'integralCF';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38.4px;
+    color: #000000;
+}
+
+.navbar {
+    padding-right: 40px;
+    display: flex;
+    gap: 24px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.navbar ul li {
+    list-style: none;
+
+}
+
+/* .text {
+    font-family: satoshi, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
+} */
+
+.search {
+    width: 577px;
+    /* height: 48px; */
+    border-radius: 62px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: 1px solid #f0f0f0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+nav img {
+    padding-left: 40px;
+}
+
+.hope {
+    padding-top: 32px;
+    padding-left: 100px;
+    font-family: satoshi;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.first {
+    margin-left: 100px;
+    margin-top: 32px;
+    border-color: #ffffff;
+    width: 210px;
+    height: 52px;
+    border-radius: 62px;
+    background-color: #000000;
+    font-family: satoshi;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21.6px;
+}
+
+.sub-pairs {
+    padding-left: 100px;
+    padding-top: 48px;
+}
+
+.sub-pairs h2 {
+    font-family: satoshi;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+}
+
+.sub-pairs hr {
+    width: 74px;
+    border: 1px;
+    offset-rotate: -90deg;
+}
+
+.sub-pairs h3 {
+    font-family: satoshi;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.images {
+    padding-top: 10px;
+}
+
+.pairs {
+    display: flex;
+    padding-left: -70px;
+}
+
+.dejavu {
+    background-color: #f0f0f0;
+    width: 100%;
+    height: 683px;
+    display: flex;
+}
+
+.logo {
+    margin-top: 2px;
+    background-color: #000000;
+    width: 100%;
+    height: 122px;
+    padding-left: 100px;
+    padding-top: 42px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.commerce h1 {
+    font-family: integralCF;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57.6px;
+    text-align: center;
+    margin-top: 72px;
+}
+
+/* .T-shirt {
+    padding-left: 100px;
+} */
+
+.T-shirt h5 {
+    font-family: satoshi;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+/* .Skinny-Fit {
+    padding-left: 100px;
+} */
+
+.Skinny-Fit h5 {
+    font-family: satoshi;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.skinny-fit-price {
+    display: flex;
+    gap: 12px;
+}
+
+.skinny-fit-price h5 s {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.skinny-fit-price button {
+    width: 58px;
+    height: 28px;
+    border-radius: 62px;
+    background-color: rgba(255, 51, 51, 0.1);
+    border: 1px solid #ffffff;
+    color: #FF3333;
+}
+
+/* .checkered-shirt {
+    padding-left: 100px;
+} */
+
+.checkered-shirt h5 {
+    font-family: satoshi;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+/* .sleeve-striped{
+    padding-left: 100px;
+} */
+.sleeve-striped h5 {
+    font-family: satoshi;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.sleeve-striped-price {
+    display: flex;
+    gap: 12px;
+}
+
+.sleeve-striped-price h5 s {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.sleeve-striped-price button {
+    width: 58px;
+    height: 28px;
+    border-radius: 62px;
+    background-color: rgba(255, 51, 51, 0.1);
+    border: 1px solid #ffffff;
+    color: #FF3333
+}
+
+.Arrivals {
+    display: flex;
+    gap: 20px;
+    padding-top: 55px;
+    padding-left: 100px;
+}
+
+.view button {
+    width: 218px;
+    height: 52px;
+    border-radius: 62px;
+    background-color: transparent;
+    margin-left: 611px;
+    margin-top: 43px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    font-family: satoshi;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21.6px;
+}
+
+hr {
+    margin-top: 64px;
+    margin-left: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 1240px
+}
+
+.best-selling h1 {
+    padding-left: 570px;
+    font-family: integralCF;
+    font-weight: 700;
+    line-height: 57.6px;
+    padding-top: 64px;
+}
+
+.vertical-striped h5 {
+    font-family: satoshi;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.vertical-striped-price {
+    display: flex;
+    gap: 12px;
+}
+
+.vertical-striped-price h5 s {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.vertical-striped-price button {
+    width: 58px;
+    height: 28px;
+    border-radius: 62px;
+    background-color: rgba(255, 51, 51, 0.1);
+    border: 1px solid #ffffff;
+    color: #FF3333
+}
+
+.courage-graphic h5 {
+    font-family: satoshi;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.loose-fit h5 {
+    font-family: satoshi;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.faded-skinny h5 {
+    font-family: satoshi;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.browse {
+    margin-top: 84px;
+    padding-left: 100px;
+}
+
+.feedback h1 {
+    font-family: integralCF;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57.6px;
+    padding-left: 100px;
+    margin-top: 80px;
+}
+
+.one {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 240px;
+    border-radius: 20px;
+    padding-left: 32px;
+}
+
+.one img {
+    padding-top: 28px;
+}
+
+.one h3 {
+    font-family: satoshi;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    padding-top: -55px;
+    padding-bottom: 12px;
+}
+
+.one p {
+    font-family: satoshi;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.6)
+}
+
+.two {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 240px;
+    border-radius: 20px;
+    padding-left: 32px;
+}
+
+.two h3 {
+    font-family: satoshi;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    padding-top: -55px;
+    padding-bottom: 12px;
+}
+
+.two img {
+    padding-top: 28px;
+}
+
+.two p {
+    font-family: satoshi;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.three {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 240px;
+    border-radius: 20px;
+    padding-left: 32px;
+}
+
+.three img {
+    padding-top: 28px;
+}
+
+.three h3 {
+    font-family: satoshi;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    padding-top: -55px;
+    padding-bottom: 12px;
+}
+
+.three p {
+    font-family: satoshi;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.6)
+}
+
+.place {
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    padding: 36px;
+    margin: 100px;
+}
+
+.sub-logo {
+    font-family: integralCF;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 45px;
+}
+
+
+.logo-button {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 280px
+}
+.logo-button input{
+    padding: 12px 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    width: 100%;
+    outline: none;
+}
+   
+
+.logo-button button {
+    background-color: #ffffff;
+    color: #000;
+    padding: 12px 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.logo-button button:hover {
+    background-color: #f0f0f0;
+}
+/* @media  screen and (max-width: 600px) {
+    .place{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    .logo-button{
+        width: 100px
+    } */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e9e9e9;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #666;
+}
+
+.help, .account, .resources {
+    padding: 20px;
+}
+
+.help h2, .account h2, .resources h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.help ul, .account ul, .resources ul {
+    list-style: none;
+    padding: 0;
+}
+
+.help ul li, .account ul li, .resources ul li {
+    margin-bottom: 10px;
+}
+
+.help ul li a, .account ul li a, .resources ul li a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+}
