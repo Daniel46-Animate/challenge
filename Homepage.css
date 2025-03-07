@@ -499,7 +499,8 @@ hr {
     gap: 10px;
     width: 280px
 }
-.logo-button input{
+
+.logo-button input {
     padding: 12px 15px;
     border-radius: 20px;
     border: none;
@@ -507,7 +508,7 @@ hr {
     width: 100%;
     outline: none;
 }
-   
+
 
 .logo-button button {
     background-color: #ffffff;
@@ -525,6 +526,7 @@ hr {
 .logo-button button:hover {
     background-color: #f0f0f0;
 }
+
 /* @media  screen and (max-width: 600px) {
     .place{
         flex-direction: column;
@@ -588,25 +590,40 @@ header nav ul li a {
     color: #666;
 }
 
-.help, .account, .resources {
+.About {
+    display: flex;
+    justify-content: space-between;
+}
+
+.help,
+.account,
+.resources {
     padding: 20px;
 }
 
-.help h2, .account h2, .resources h2 {
+.help h2,
+.account h2,
+.resources h2 {
     font-size: 24px;
     margin-bottom: 15px;
 }
 
-.help ul, .account ul, .resources ul {
+.help ul,
+.account ul,
+.resources ul {
     list-style: none;
     padding: 0;
 }
 
-.help ul li, .account ul li, .resources ul li {
+.help ul li,
+.account ul li,
+.resources ul li {
     margin-bottom: 10px;
 }
 
-.help ul li a, .account ul li a, .resources ul li a {
+.help ul li a,
+.account ul li a,
+.resources ul li a {
     text-decoration: none;
     color: #007BFF;
 }
