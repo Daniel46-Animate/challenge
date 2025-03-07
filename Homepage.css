@@ -593,6 +593,8 @@ header nav ul li a {
 .About {
     display: flex;
     justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .help,
@@ -625,7 +627,7 @@ header nav ul li a {
 .account ul li a,
 .resources ul li a {
     text-decoration: none;
-    color: #007BFF;
+    color: #000000;
 }
 
 footer {
